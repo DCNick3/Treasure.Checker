@@ -7,16 +7,9 @@
   
   <PropertyGroup>
     <RootNamespace>Treasure.Checker</RootNamespace>
-  </PropertyGroup>
-  
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>
   
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-  </PropertyGroup>
-
   <PropertyGroup>
     <PackageId>Treasure.Checker</PackageId>
     <Version>1.0.0</Version>
@@ -26,7 +19,7 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="Treasure.GameLogic" Version="1.0.1" />
+    <PackageReference Include="Treasure.GameLogic" Version="1.0.2" />
   </ItemGroup>
 
 </Project>
