@@ -84,6 +84,8 @@ namespace Treasure.Checker
                 await _communicator.WriteLineAsync(StringifyMessage(message));
                 GameState = newGameState;
             }
+
+            await _communicator.WriteLineAsync("Победа");
         }
 
         public class PresentationError : Exception
