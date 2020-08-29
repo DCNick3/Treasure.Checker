@@ -12,14 +12,14 @@
   
   <PropertyGroup>
     <PackageId>Treasure.Checker</PackageId>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Authors>DCNick3</Authors>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/DCNick3/Treasure.Checker</PackageProjectUrl>
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="Treasure.GameLogic" Version="1.0.2" />
+    <PackageReference Include="Treasure.GameLogic" Version="1.0.3" />
   </ItemGroup>
 
 </Project>
